@@ -1,6 +1,5 @@
 #!/bin/bash
-yum install zlib-devel bzip2-devel openssl-devel ncurses-devel sqlite-devel readline-devel tk-devel gcc make -y
-yum install libffi-devel -y
+apt-get install build-essential
 cd ~
 wget http://cdn.npm.taobao.org/dist/python/3.6.5/Python-3.6.5.tgz
 tar -zxvf Python-3.6.5.tgz
